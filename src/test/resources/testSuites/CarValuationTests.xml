@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CarValuationTests" verbose="1" >
+
+    <test name="PositiveTest" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="web.car.valuation.carValuationTests.CarValuationTest" />
+        </classes>
+    </test>
+</suite>
